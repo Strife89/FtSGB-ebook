@@ -6,3 +6,5 @@ If you clone the repo or just download the .epub file, you can examine it with S
 The ePUB file in this repo is built using version 2 of the ePUB standard.
 
 I do have Love's permission to do this, per [this Bluesky post](https://bsky.app/profile/christinelove.bsky.social/post/3lfvv5y3mr223).
+
+The book version is ready for reading; go to [the releases page](https://github.com/Strife89/FtSGB-ebook/releases) to grab a PDF or ePUB copy.
