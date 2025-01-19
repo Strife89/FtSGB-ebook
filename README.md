@@ -1,3 +1,5 @@
+![](https://github.com/Strife89/FtSGB-ebook/blob/main/unpacked%20ePUB/OEBPS/Images/fuck-the-super-game-boy.png)
+
 This is a project to rebuild Christine Love's "Fuck the Super Game Boy" articles as a single ebook in ePUB and PDF formats.
 See the original articles [here](https://blog.loveconquersallgames.com/post/2350461718/fuck-the-super-game-boy-introduction).
 
