@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Chapter1</title>
+  <link href="../Styles/Style0001.css" type="text/css" rel="stylesheet"/>
+</head>
+
+<body>
+<h1><a href="https://blog.loveconquersallgames.com/post/2350461718/fuck-the-super-game-boy-introduction">Introduction</a></h1>
+<p>The <a href="http://en.wikipedia.org/wiki/Super_Gameboy">Super Game Boy</a> is probably the coolest piece of video game hardware in existence.</p>
+<p><img alt="Super Game Boy" src="../Images/Super%20Game%20Boy.png"/></p>
+
+<p>It’s also probably the biggest wasted opportunity in video games.</p>
+
+<p>It’s been pretty much entirely forgotten about now, because– as is pretty common with neat hardware made by Nintendo– very, VERY few games ever really took advantage of it at all. And it’s a shame, because the unique visual style of Super Game Boy-compatible games, in addition to just looking really neat, can teach a lot about effectively using colour in games. The ones that do work exist in a really bizarre stylistic place.</p>
+<p><img alt="Kirby's Dream Land 2 - Red Canyon" src="../Images/Kirby%27s%20Dream%20Land%202%20-%20Red%20Canyon.png"/></p>
+<p>Games don’t look like this. They never have,<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> and never will; unless you’re using a Super Game Boy.</p>
+<p>So I’d like to use this book to look at a few noteworthy Super Game Boy compatible games, explain what they do, both from an artistic standpoint and a technical one, but trying to keep it straightforward as possible. I’m going to assume you probably know what one is, if only in the context of “that weird thing for the SNES that let you play GB games,” but haven’t given much thought as to what the hell it actually does.</p>
+<p><strong>So what the hell does it actually do?</strong></p>
+<p>If you’re playing a non-Super Game Boy compatible game, not much. It puts a border around the game (since the GB has a much smaller resolution than the SNES), and lets you worry about picking the colours. For a small handful of pre-SGB games, there are default palettes included, but they apply to the entire game.</p>
+<p><img alt="wario-land" title="Super Mario Land 3: Wario Land on the Super Game Boy." src="../Images/wario-land.png"/></p>
+<p>If it’s a Super Game Boy-compatible game, however… well, it probably <em>still</em> didn’t do that much. The vast majority of SGB games simply threw in a custom border and called it a day. They don’t look particularly pretty, either.</p>
+<p>But of course the thing is way more powerful than that. A small handful of games go above and beyond, and change the palette through the course of the game. And there’s a bunch of neat colourization techniques that let a well designed game go even further.</p>
+<p><strong>Okay, so explain this palette shit to me</strong></p>
+<figure data-orig-height="109" data-orig-width="139"><img src="../Images/mario-palletes.png" style="float: left; margin-right: 1em;" alt="image" data-orig-height="109" data-orig-width="139" width="139" height="109"/></figure>
+<p>The most important thing to understanding how the Super Game Boy works is to understand how palettes work. On game consoles, you don’t ever think of things in terms of individual colours. You think of them in terms of palettes.</p>
+<p>The classical example of this is Super Mario Bros., for the NES. When he picks up a fire flower, the sprite doesn’t change; it’s the exact same image file on the cartridge. His suspenders aren’t ever “red,” they’re just colour 1. When it needs to change his colours, it swaps the palette, so colour 1 is now white instead of red.</p>
+<p>So let’s break down what this means for a Super Game Boy game.</p>
+<p><img src="../Images/PokemonYellow-Gary.png" alt="" title="Pokémon Yellow on the Super Game Boy."/></p>
+<p>The border is stored on the cartridge, and used only by the SGB. It’s not subjected to any colour limitations other than the SNES’s. The inner screen is what matters.</p>
+<p>The Game Boy is limited to a palette of four colours, which is exactly how many shades of grey<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> the screen can render. So you can’t have a palette with more than four colours. You can <em>change</em> palettes as often as you want, but you can’t ever have more than four colours.</p>
+<p><img alt="Pokemon Yellow - Gary color vs greyscale" src="../Images/Pokemon%20Yellow%20-%20Gary%20color%20vs%20greyscale.png"/></p>
+<p>On the left is what it looks like on the Super Game Boy. On the right, the Game Boy Pocket. As you can see, the whole inner screen is drawn with a palette using four shades of red.</p>
+<p>But, if you go outside…</p>
+<p><img alt="Pokemon Yellow - field color vs greyscale" src="../Images/Pokemon%20Yellow%20-%20field%20color%20vs%20greyscale.png"/></p>
+<p>It changes the palette to whatever is specifically designated. As opposed to Wario Land, wherein the whole game will be in that yellow-y orange, Super Game Boy games still have the restriction of a palette of four colours– since they’re still Game Boy games– but have control over what that palette will actually be.</p>
+<p>It’s really important to understand that part before continuing. So this is what a Pokémon battle in Yellow looks like.</p>
+<p><img alt="Pokemon Yellow - battle screen" src="../Images/Pokemon%20Yellow%20-%20battle%20screen.png"/></p>
+<p><strong>Wait a minute! That’s WAY the fuck more than four colours!</strong></p>
+<p>Here’s the neat thing about Super Game Boy palettes: they don’t have to apply to the entire screen (although they usually do). They can be applied specifically to a given <em>region</em> of the screen. There are, in fact, three seperate palettes being applied to the screen in that example image. Let me break it down.</p>
+<p><img alt="Pokemon - battle screen palletes" src="../Images/Pokemon%20-%20battle%20screen%20palletes.png"/></p>
+<p>(I learned, after making this diagram, some extra details about how the Super Game Boy colors the life bar; see the footnote.<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>)</p>
+<p>What happens is this: first, the Game Boy inside the Super Game Boy draws the inner screen like it would on a normal Game Boy screen. Then, the game sends special instructions to the Super Game Boy, which tells it to apply a palette to a certain screen area. The important thing is that this happens <em>after</em> everything has rendered; it’s literally just applying the palette to the rendered screen.</p>
+<p>The update speed of this redrawing isn’t fast enough to just make it so a palette region surrounds any given sprite, so, say, individually colouring the player character on the map wouldn’t look good at all.</p>
+<p>But still, there’s a lot you can do with just that. For example, if your screen doesn’t scroll vertically, you could colour the ground differently from the top of the sky. In a static screen– the Pokémon battle is an obvious example, but this also applies to, say, boss fights in action games– you could really go nuts.</p>
+<p>There aren’t really many examples of actual creative uses of this technique, though. Especially since most Game Boy games were afraid of having anything but empty white backgrounds, because when you only have four colours, it’s difficult to have detailed backgrounds not blend in with the foreground. Mostly, people just used it to make fancy title screens, or colour lifebars differently in action games.</p>
+<p><img alt="castlevania-SuperGameBoy" title="Castlevania Legends, on the Super Game Boy." src="../Images/castlevania-SuperGameBoy.png"/></p>
+<p>Yeah, way to really raise the bar there.</p>
+<p><strong>So what, did everything for the Super Game Boy just suck?</strong></p>
+<p>In the next few chapters, I’d like to focus on the games that actually <em>did</em> push the bar, and use the crazy colour-pushing power of the Super Game Boy to do neat things. Four colours might not seem like that much, but there are a few– not many, but a few– that use that limit in amazing ways. The Super Game Boy could do more than just colourize, too; I’ll explain a bit more about its other capabilities later. I’ll definitely be taking a look at Donkey Kong ‘94, Kirby’s Dreamland 2, and Space Invaders, as well as some of the few other noteworthy SGB games.</p>
+<p>Next up: <a href="Section0002.xhtml">fighting games on the Super Game Boy.</a></p>
+<div class="footnotes" role="doc-endnotes"><hr/>
+<ol><li id="fn:1" role="doc-endnote"><p>It’s completely unique: nothing has ever had a resolution as high as the Game Boy’s and shared the same palette imitations. In consoles, increases in resolution also coincided with sprites getting lots of colours. Super Game Boy games are detailed, but don’t have the luxury of using anything but extremely minimalistic colour use. It’s not an exaggeration; it really <em>is</em> completely unprecedented, and remains so to this day.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">↩︎</a></p>
+</li>
+<li id="fn:2" role="doc-endnote"><p>Or if running on an original Game Boy, four different hideous shades of yellow.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">↩︎</a></p>
+</li>
+<li id="fn:3" role="doc-endnote"><p>In the original article version, I said that the lifebar changes colours, and that it only colourizes a 2 pixel tall area. The latter is impossible– the Super Game Boy can only colourize in 8 pixel increments, which is actually somewhat important. The life bar in black and white mode doesn’t actually ever change colour, ever. When it does on the Super Game Boy, there’s a noticeable lag in when it changes, because it’s switching palettes.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">↩︎</a></p>
+</li>
+</ol>
+</div>
+</body>
+</html>

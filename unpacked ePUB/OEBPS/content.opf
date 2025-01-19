@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="2.0" unique-identifier="BookId" xmlns="http://www.idpf.org/2007/opf">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:description>First published on her Tumblr as a series of articles, &quot;Fuck the Super Game Boy&quot; takes a dive into the capabilities of a device that enabled people to play handheld Game Boy games on a home console - the Super NES and Super Famicom - and explores its unused potential.</dc:description>
+    <dc:language>en</dc:language>
+    <dc:title>Fuck the Super Game Boy</dc:title>
+    <dc:creator opf:role="aut">Christine Love</dc:creator>
+    <dc:creator opf:role="edc">Joni Carr</dc:creator>
+    <meta name="Sigil version" content="2.0.1"/>
+    <dc:date opf:event="modification" xmlns:opf="http://www.idpf.org/2007/opf">2025-01-18</dc:date>
+    <dc:identifier opf:scheme="UUID" id="BookId">urn:uuid:acc47585-9438-4182-b73d-9809d06303b4</dc:identifier>
+    <meta name="cover" content="fuck-the-super-game-boy.png"/>
+  </metadata>
+  <manifest>
+    <item id="Section0001.xhtml" href="Text/Section0001.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="fuck-the-super-game-boy.png" href="Images/fuck-the-super-game-boy.png" media-type="image/png"/>
+    <item id="cover.xhtml" href="Text/cover.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Section0002.xhtml" href="Text/Section0002.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Section0003.xhtml" href="Text/Section0003.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Section0004.xhtml" href="Text/Section0004.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Section0005.xhtml" href="Text/Section0005.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Section0006.xhtml" href="Text/Section0006.xhtml" media-type="application/xhtml+xml"/>
+    <item id="headshot.jpg" href="Images/headshot.jpg" media-type="image/jpeg"/>
+    <item id="logo.png" href="Images/logo.png" media-type="image/png"/>
+    <item id="Section0000.xhtml" href="Text/Section0000.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Style0001.css" href="Styles/Style0001.css" media-type="text/css"/>
+    <item id="mario-palletes.png" href="Images/mario-palletes.png" media-type="image/png"/>
+    <item id="wario-land.png" href="Images/wario-land.png" media-type="image/png"/>
+    <item id="Super_Game_Boy.png" href="Images/Super%20Game%20Boy.png" media-type="image/png"/>
+    <item id="Kirbys_Dream_Land_2_-_Red_Canyon.png" href="Images/Kirby%27s%20Dream%20Land%202%20-%20Red%20Canyon.png" media-type="image/png"/>
+    <item id="PokemonYellow-Gary.png" href="Images/PokemonYellow-Gary.png" media-type="image/png"/>
+    <item id="Pokemon_Yellow_-_field_color_vs_greyscale.png" href="Images/Pokemon%20Yellow%20-%20field%20color%20vs%20greyscale.png" media-type="image/png"/>
+    <item id="Pokemon_Yellow_-_Gary_color_vs_greyscale.png" href="Images/Pokemon%20Yellow%20-%20Gary%20color%20vs%20greyscale.png" media-type="image/png"/>
+    <item id="castlevania-SuperGameBoy.png" href="Images/castlevania-SuperGameBoy.png" media-type="image/png"/>
+    <item id="Pokemon_Yellow_-_battle_screen.png" href="Images/Pokemon%20Yellow%20-%20battle%20screen.png" media-type="image/png"/>
+    <item id="Pokemon_-_battle_screen_palletes.png" href="Images/Pokemon%20-%20battle%20screen%20palletes.png" media-type="image/png"/>
+    <item id="tumblr_ldlqzb5MaN1qzvs0a.png" href="Images/tumblr_ldlqzb5MaN1qzvs0a.png" media-type="image/png"/>
+    <item id="tumblr_ldlybueVAr1qzvs0a.png" href="Images/tumblr_ldlybueVAr1qzvs0a.png" media-type="image/png"/>
+    <item id="tumblr_ldlyhpgp9r1qzvs0a.png" href="Images/tumblr_ldlyhpgp9r1qzvs0a.png" media-type="image/png"/>
+    <item id="tumblr_ldlz0tYjc31qzvs0a.png" href="Images/tumblr_ldlz0tYjc31qzvs0a.png" media-type="image/png"/>
+    <item id="tumblr_ldlzemTbRy1qzvs0a.png" href="Images/tumblr_ldlzemTbRy1qzvs0a.png" media-type="image/png"/>
+    <item id="tumblr_ldlzw2zb751qzvs0a.png" href="Images/tumblr_ldlzw2zb751qzvs0a.png" media-type="image/png"/>
+    <item id="tumblr_ldlzwdX9QL1qzvs0a.png" href="Images/tumblr_ldlzwdX9QL1qzvs0a.png" media-type="image/png"/>
+    <item id="tumblr_ldm0b5UPnH1qzvs0a.png" href="Images/tumblr_ldm0b5UPnH1qzvs0a.png" media-type="image/png"/>
+    <item id="tumblr_ldm0faqWsM1qzvs0a.png" href="Images/tumblr_ldm0faqWsM1qzvs0a.png" media-type="image/png"/>
+    <item id="tumblr_ldm1qeROV21qzvs0a.png" href="Images/tumblr_ldm1qeROV21qzvs0a.png" media-type="image/png"/>
+    <item id="tumblr_ldm8j7u0Re1qzvs0a.png" href="Images/tumblr_ldm8j7u0Re1qzvs0a.png" media-type="image/png"/>
+    <item id="tumblr_ldm12lJxIf1qzvs0a.png" href="Images/tumblr_ldm12lJxIf1qzvs0a.png" media-type="image/png"/>
+    <item id="tumblr_ldmrdlNKEL1qzvs0a.png" href="Images/tumblr_ldmrdlNKEL1qzvs0a.png" media-type="image/png"/>
+    <item id="tumblr_ldmsxrVohK1qzvs0a.png" href="Images/tumblr_ldmsxrVohK1qzvs0a.png" media-type="image/png"/>
+    <item id="tumblr_ldmtdaJqPR1qzvs0a.png" href="Images/tumblr_ldmtdaJqPR1qzvs0a.png" media-type="image/png"/>
+    <item id="tumblr_ldoo8vsMPf1qzvs0a.png" href="Images/tumblr_ldoo8vsMPf1qzvs0a.png" media-type="image/png"/>
+    <item id="tumblr_ldoq52nAPL1qzvs0a.png" href="Images/tumblr_ldoq52nAPL1qzvs0a.png" media-type="image/png"/>
+    <item id="tumblr_ldoqbjcrXa1qzvs0a.png" href="Images/tumblr_ldoqbjcrXa1qzvs0a.png" media-type="image/png"/>
+    <item id="tumblr_ldor2pupM51qzvs0a.png" href="Images/tumblr_ldor2pupM51qzvs0a.png" media-type="image/png"/>
+    <item id="tumblr_ldozawQMJX1qzvs0a.png" href="Images/tumblr_ldozawQMJX1qzvs0a.png" media-type="image/png"/>
+    <item id="tumblr_ldozroJ1XB1qzvs0a.png" href="Images/tumblr_ldozroJ1XB1qzvs0a.png" media-type="image/png"/>
+    <item id="tumblr_ldp0bxgM9m1qzvs0a.png" href="Images/tumblr_ldp0bxgM9m1qzvs0a.png" media-type="image/png"/>
+    <item id="tumblr_ldp0n2wp3Y1qzvs0a.png" href="Images/tumblr_ldp0n2wp3Y1qzvs0a.png" media-type="image/png"/>
+    <item id="tumblr_ldp01cJpmL1qzvs0a.png" href="Images/tumblr_ldp01cJpmL1qzvs0a.png" media-type="image/png"/>
+    <item id="tumblr_ldp2deAXYS1qzvs0a.png" href="Images/tumblr_ldp2deAXYS1qzvs0a.png" media-type="image/png"/>
+    <item id="tumblr_ldp3c0Vkej1qzvs0a.png" href="Images/tumblr_ldp3c0Vkej1qzvs0a.png" media-type="image/png"/>
+    <item id="tumblr_ldp3xlCi6x1qzvs0a.png" href="Images/tumblr_ldp3xlCi6x1qzvs0a.png" media-type="image/png"/>
+    <item id="tumblr_ldp7tqDFqK1qzvs0a.png" href="Images/tumblr_ldp7tqDFqK1qzvs0a.png" media-type="image/png"/>
+    <item id="tumblr_ldp8x92kaL1qzvs0a.png" href="Images/tumblr_ldp8x92kaL1qzvs0a.png" media-type="image/png"/>
+    <item id="tumblr_ldp10au0ON1qzvs0a.png" href="Images/tumblr_ldp10au0ON1qzvs0a.png" media-type="image/png"/>
+    <item id="tumblr_ldp20qrxUb1qzvs0a.png" href="Images/tumblr_ldp20qrxUb1qzvs0a.png" media-type="image/png"/>
+    <item id="animaniacs-gb.mp3" href="Audio/animaniacs-gb.mp3" media-type="audio/mpeg"/>
+    <item id="animaniacs-sgb.mp3" href="Audio/animaniacs-sgb.mp3" media-type="audio/mpeg"/>
+    <item id="tumblr_ldux3oBLMn1qzvs0a.png" href="Images/tumblr_ldux3oBLMn1qzvs0a.png" media-type="image/png"/>
+    <item id="tumblr_lduyyinLRp1qzvs0a.jpg" href="Images/tumblr_lduyyinLRp1qzvs0a.jpg" media-type="image/jpeg"/>
+    <item id="tumblr_ldv0hnBhua1qzvs0a.png" href="Images/tumblr_ldv0hnBhua1qzvs0a.png" media-type="image/png"/>
+    <item id="tumblr_ldv0vag5kt1qzvs0a.png" href="Images/tumblr_ldv0vag5kt1qzvs0a.png" media-type="image/png"/>
+    <item id="tumblr_ldv1pkCsT61qzvs0a.png" href="Images/tumblr_ldv1pkCsT61qzvs0a.png" media-type="image/png"/>
+    <item id="tumblr_ldv1tbBzbT1qzvs0a.png" href="Images/tumblr_ldv1tbBzbT1qzvs0a.png" media-type="image/png"/>
+    <item id="tumblr_ldv081xZeC1qzvs0a.png" href="Images/tumblr_ldv081xZeC1qzvs0a.png" media-type="image/png"/>
+    <item id="tumblr_le2kg8wTCL1qzvs0a.png" href="Images/tumblr_le2kg8wTCL1qzvs0a.png" media-type="image/png"/>
+    <item id="tumblr_le3th27ksT1qzvs0a.png" href="Images/tumblr_le3th27ksT1qzvs0a.png" media-type="image/png"/>
+    <item id="tumblr_le3tilT5XW1qzvs0a.png" href="Images/tumblr_le3tilT5XW1qzvs0a.png" media-type="image/png"/>
+    <item id="tumblr_le3tnn9vNn1qzvs0a.png" href="Images/tumblr_le3tnn9vNn1qzvs0a.png" media-type="image/png"/>
+    <item id="tumblr_le3to83e3w1qzvs0a.png" href="Images/tumblr_le3to83e3w1qzvs0a.png" media-type="image/png"/>
+    <item id="tumblr_le3twolkFt1qzvs0a.png" href="Images/tumblr_le3twolkFt1qzvs0a.png" media-type="image/png"/>
+    <item id="tumblr_le3u9gWNs51qzvs0a.png" href="Images/tumblr_le3u9gWNs51qzvs0a.png" media-type="image/png"/>
+    <item id="tumblr_le3ubbR6Iv1qzvs0a.png" href="Images/tumblr_le3ubbR6Iv1qzvs0a.png" media-type="image/png"/>
+    <item id="tumblr_le3uekaxIF1qzvs0a.png" href="Images/tumblr_le3uekaxIF1qzvs0a.png" media-type="image/png"/>
+    <item id="tumblr_le3um7hbnv1qzvs0a.png" href="Images/tumblr_le3um7hbnv1qzvs0a.png" media-type="image/png"/>
+    <item id="tumblr_le3v73zpzK1qzvs0a.png" href="Images/tumblr_le3v73zpzK1qzvs0a.png" media-type="image/png"/>
+    <item id="tumblr_le3vaztA261qzvs0a.png" href="Images/tumblr_le3vaztA261qzvs0a.png" media-type="image/png"/>
+    <item id="tumblr_le3vbd62gT1qzvs0a.png" href="Images/tumblr_le3vbd62gT1qzvs0a.png" media-type="image/png"/>
+    <item id="tumblr_le3w4bmb1P1qzvs0a.png" href="Images/tumblr_le3w4bmb1P1qzvs0a.png" media-type="image/png"/>
+    <item id="tumblr_le3ww5LDgf1qzvs0a.png" href="Images/tumblr_le3ww5LDgf1qzvs0a.png" media-type="image/png"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="cover.xhtml"/>
+    <itemref idref="Section0000.xhtml"/>
+    <itemref idref="Section0001.xhtml"/>
+    <itemref idref="Section0002.xhtml"/>
+    <itemref idref="Section0003.xhtml"/>
+    <itemref idref="Section0004.xhtml"/>
+    <itemref idref="Section0005.xhtml"/>
+    <itemref idref="Section0006.xhtml"/>
+  </spine>
+  <guide>
+    <reference type="cover" title="Cover" href="Text/cover.xhtml"/>
+  </guide>
+</package>
